@@ -112,7 +112,7 @@ function fn()
     //         cnt++;
     //     }        
     // } 
-    if(checkboxes.length>=94)
+    if(checkboxes.length>=95)
     {
         alert('Congrats. 5 Tasks have been Successfully Completed')
     }
