@@ -15,12 +15,14 @@ if(uname=="" ||psd=="")
         if (!(uname=='admin'))
         {            
             y.innerHTML="Invalid Username";
-            document.getElementById('user_hint').hidden=false;
+            document.getElementById('user_hint').hidden=false;     
+            document.getElementById('userName').value=""       
         }   
         else if(!(psd=='12345'))
         {
             y.innerHTML="Invalid password ";
             document.getElementById('pass_hint').hidden=false;
+            document.getElementById('password1').value=""
         }   
         else    callback();
     }
@@ -39,6 +41,6 @@ function hideLabel()
     {
         document.getElementById('errlabel').innerHTML= "";
         document.getElementById('pass_hint').hidden=true;
-        document.getElementById('user_hint').hidden=true;
+        document.getElementById('user_hint').hidden=true;      
 
     }
