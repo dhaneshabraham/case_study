@@ -97,7 +97,6 @@ function count()
     {
         c= inputElems[i].addEventListener("click",fn);
     }
-    
 }
 function fn()
 {
@@ -116,6 +115,7 @@ function fn()
     {
         alert('Congrats. 5 Tasks have been Successfully Completed')
     }
+    // return(document.querySelectorAll('input[type="checkbox"]:checked'))
     
 }
 
